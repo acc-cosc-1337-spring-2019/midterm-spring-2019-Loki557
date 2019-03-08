@@ -1,3 +1,4 @@
+
 /*
 Write code for value-return function get_dna_hamming_distance with two const string
 reference parameters that returns an int.
@@ -13,3 +14,23 @@ int distance = get_dna_hamming_distance("GAGCCTACTAACGGGAT", "CATCGTAATGACGGCCT"
 distance will be 7
 
 */
+#include "dna_hamming.h"
+#include <string>
+#include <iostream>
+
+using std::cout;
+
+
+
+int get_dna_hamming(std::string & a, std::string & b)
+{
+	int distance = 0;
+	for (int i = 0 ; i <= a.length(); ++i)
+	{
+		if (a[i] != b[i])
+			++distance;
+		cout << "\n A:" << a[i] << "   B:" << b[i] << "   D:" << distance;
+	}
+	return distance;
+}
+
