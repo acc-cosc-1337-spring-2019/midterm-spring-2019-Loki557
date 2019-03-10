@@ -8,12 +8,12 @@ DO NOT USE A RECURSIVE FUNCTION
 using std::vector;
 vector<int> get_fibonacci(int a)
 {
-	int n, t1 = 0, t2 = 1, next_term = 0;
+	int  t1 = 0, t2 = 1, next_term = 0;
 	vector<int> sequence;
 
 	
 
-	for (int i = 1; i <= n; ++i)
+	for (int i = 1; i <= a; ++i)
 	{
 		// Prints the first two terms.
 		if (i == 1)

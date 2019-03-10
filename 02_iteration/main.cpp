@@ -22,15 +22,15 @@ int main()
 		cin >> entry;
 		sequence = get_fibonacci(entry);
 		cout << "\nFibonacci Sequence: ";
-		for (int i = 0; i<= sequence.size(); ++i)
+		for (int i = 0; i<= sequence.size() - 1; ++i)
 		{
-			if (i < sequence.size())
+			if (i < sequence.size() - 1)
 				cout << sequence[i] << ", ";
 			else
 				cout << sequence[i];
 		}
 
-		cout << "\n Do you wish to compare another set of DNA? (y/n): ";
+		cout << "\n Do you wish create another Fibonacci Sequence? (y/n): ";
 		cin >> choice;
 
 	}
