@@ -4,5 +4,7 @@
 
 Roll Shoot::shoot(Die & d1, Die & d2)
 {
-	return Roll();
+	Roll roll(d1, d2);
+	roll.roll(d1, d2);
+	return roll;
 }

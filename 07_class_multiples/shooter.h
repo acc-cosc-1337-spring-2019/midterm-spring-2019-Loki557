@@ -2,15 +2,11 @@
 
 #ifndef SHOOT_H
 #define SHOOT_H
-#include "roll.h"
+#include "roll_ol.h"
 class Shoot
 {
 public:
 	Roll shoot(Die& d1, Die& d2);
-
-
-
-
 };
 
 
