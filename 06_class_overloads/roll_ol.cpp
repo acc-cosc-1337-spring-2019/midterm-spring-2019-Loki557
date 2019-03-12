@@ -1,3 +1,4 @@
+#include "roll_ol.h"
 //class implementation
 
 #include "roll_ol.h"
@@ -62,3 +63,5 @@ bool Roll::natural()
 	else
 		return false;
 }
+
+

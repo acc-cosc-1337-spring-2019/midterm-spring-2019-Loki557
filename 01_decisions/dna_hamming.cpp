@@ -29,7 +29,7 @@ int get_dna_hamming(std::string & a, std::string & b)
 	{
 		if (a[i] != b[i])
 			++distance;
-		cout << "\n A:" << a[i] << "   B:" << b[i] << "   D:" << distance;
+		//cout << "\n A:" << a[i] << "   B:" << b[i] << "   D:" << distance;
 	}
 	return distance;
 }

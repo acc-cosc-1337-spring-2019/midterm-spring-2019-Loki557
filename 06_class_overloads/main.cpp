@@ -19,7 +19,7 @@ int main()
 	{
 		Die die1;
 		Die die2;
-		Roll roll(die1, die2);
+		Roll roll;
 		roll.roll(die1, die2);
 		cout << "\n Die 1: " << roll.value_1() << "\n Die 2: " << roll.value_2() << "\n Result: " << roll.result() << "\n";
 		rolls.push_back(roll);
