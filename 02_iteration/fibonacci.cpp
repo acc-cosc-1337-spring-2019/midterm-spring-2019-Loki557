@@ -12,24 +12,24 @@ vector<int> get_fibonacci(int a)
 	vector<int> sequence;
 
 	
-
-	for (int i = 1; i <= a; ++i)
+	int i = 1;
+	while (next_term <= a)
 	{
 		// Prints the first two terms.
 		if (i == 1)
 			sequence.push_back(t1);
 
-		if (i == 2)
+		else if (i == 2)
 			sequence.push_back(t2);
-
 		else
 		{
 			next_term = t1 + t2;
 			t1 = t2;
 			t2 = next_term;
-			sequence.push_back(next_term);
+			if(next_term < a)
+				sequence.push_back(next_term);
 		}
-
+		++i;
 
 	}
 	return sequence;
