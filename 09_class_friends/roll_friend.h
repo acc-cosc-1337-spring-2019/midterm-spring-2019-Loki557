@@ -14,8 +14,8 @@ public:
 	string result();
 	int value_1();
 	int value_2();
-	friend int die1_roll_value(const Roll & r);
-	friend int die2_roll_value(const Roll & r);
+	friend int return_die1_roll_value(const Roll & r);
+	friend int return_die2_roll_value(const Roll & r);
 
 
 private:

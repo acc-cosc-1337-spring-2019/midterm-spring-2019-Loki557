@@ -55,12 +55,12 @@ bool Roll::natural()
 		return false;
 }
 
-int die1_roll_value(const Roll & r)
+int return_die1_roll_value(const Roll & r)
 {
-	return die1_roll_value;
+	return r.die1_roll_value;
 }
 
-int die2_roll_value(const Roll & r)
+int return_die2_roll_value(const Roll & r)
 {
-	return die2_roll_value;
+	return r.die2_roll_value;
 }
