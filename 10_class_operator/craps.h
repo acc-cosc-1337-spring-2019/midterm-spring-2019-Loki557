@@ -14,10 +14,18 @@ public:
 		const Craps & c);
 	friend std::istream & operator >> (std::istream & in,
 		Craps & c);
-
-private:
-	vector<Roll> rolls;
+	
+//private:
+	int points_val = 0;
+	//int player_counter = 1;
+	//int phase = 1;
+	//bool reroll = true;
 	vector<Shoot> shoots;
+	vector<Roll> rolls;
+
+	//remove later
+	//int return_player();
+	
 
 
 };

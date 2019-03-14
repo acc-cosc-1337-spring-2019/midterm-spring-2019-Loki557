@@ -15,13 +15,13 @@ TEST_CASE("")
 {
 	REQUIRE(true == true);
 }
-TEST_CASE("Test blank results")
+TEST_CASE("Test results if no roll had been made.")
 {
 	Die die1;
 	Die die2;
 	Roll r(die1, die2);
 	//r.roll();
-	REQUIRE(r.result() == "");
+	REQUIRE(r.result() == "Must roll first!");
 }
 
 

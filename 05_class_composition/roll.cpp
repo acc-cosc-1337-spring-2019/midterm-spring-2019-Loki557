@@ -18,7 +18,7 @@ string Roll::result()
 	else if (natural())
 		return "Natural";
 	else if (rolled == false)
-		return "";
+		return "Must roll first!";
 	else
 		return "Points";
 	
