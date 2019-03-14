@@ -18,6 +18,7 @@ TEST_CASE("Test rolls")
 	{
 		die.roll();
 		REQUIRE(die.rolled_value() <= 6);
+		REQUIRE(die.rolled_value() > 0);
 	}
 	
 }
