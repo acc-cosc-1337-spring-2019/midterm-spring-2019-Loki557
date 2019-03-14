@@ -52,8 +52,7 @@ void Craps::play_game()
 				reroll = false;
 			
 		}
-		
-		//++player_counter;
+		//Testing
 		//for (auto r : rolls)
 		//{
 		//	cout << "\nD1: " << r.value_1() << "  D2: " << r.value_2() << "  Result: " << r.result();
@@ -89,7 +88,7 @@ std::ostream & operator<<(std::ostream & out,  const Craps & c)
 			else if (r.result() == "Natural")
 				out << "\nPlayer " << player << " rolls..." <<
 				"\nRoll 1: " << r.value_1() << "  Roll 2: " << r.value_2() << "   Total: " << r.value_1() + r.value_2() <<
-				"\nNatural, Pass Line bets win and player " << player << " rolls again\n.";
+				"\nNatural, Pass Line bets win and player " << player << " rolls again\n";
 			else if (r.result() == "Points")
 			{
 				out << "\nPlayer " << player << " rolls..." <<

@@ -20,12 +20,7 @@ private:
 	vector<Shoot> shoots;
 	vector<Roll> rolls;
 	
-	//int points_val = 0;
-	//remove later
-	//int return_player();
 	
-
-
 };
 
 

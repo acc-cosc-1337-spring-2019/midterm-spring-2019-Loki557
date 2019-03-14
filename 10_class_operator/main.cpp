@@ -26,7 +26,7 @@ int main()
 		craps.play_game();
 		cout << craps;
 		
-		
+		cout << "\n=============================\n";
 		cout << "\n Do you wish to play another game? (y/n): ";
 		cin >> choice;
 

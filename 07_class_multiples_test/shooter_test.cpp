@@ -31,11 +31,7 @@ TEST_CASE("Test shooter class")
 		else
 			REQUIRE(roll_shooter.result() == "Points");
 	}
-	//REQUIRE(roll_shooter.value_1() == 1 || roll_shooter.value_1() == 2 || roll_shooter.value_1() == 3 || roll_shooter.value_1() == 4
-		//|| roll_shooter.value_1() == 5 || roll_shooter.value_1() == 6);
-	//REQUIRE(roll_shooter.value_2() == 1 || roll_shooter.value_2() == 2 || roll_shooter.value_2() == 3 || roll_shooter.value_2() == 4
-		//|| roll_shooter.value_2() == 5 || roll_shooter.value_2() == 6);
-	//REQUIRE(roll_shooter.result()  == "Natural" || roll_shooter.result() == "Craps" || roll_shooter.result() == "Point");
+	
 }
 
 
